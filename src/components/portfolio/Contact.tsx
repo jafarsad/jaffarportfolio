@@ -72,6 +72,12 @@ const Contact = () => {
       link: "tel:+971561905021"
     },
     {
+      icon: Phone,
+      label: "Phone",
+      value: "+918281768321",
+      link: "tel:+918281768321"
+    },
+    {
       icon: Mail,
       label: "Email",
       value: "sadiqjaffar121@gmail.com",
