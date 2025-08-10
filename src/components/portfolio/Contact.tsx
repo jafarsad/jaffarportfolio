@@ -83,13 +83,13 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      link: "https://www.linkedin.com/in/jaffar-sadiq-k-m",
+      link: "https://www.linkedin.com/in/jaffarsadiqkm",
       color: "text-blue-600"
     },
     {
       icon: Github,
       label: "GitHub", 
-      link: "https://github.com/jaffarsadiq",
+      link: "https://github.com/jafarsad",
       color: "text-gray-800"
     }
   ];
