@@ -64,11 +64,6 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                <div className="flex justify-end">
-                  <Button variant="outline" size="sm" className="border-primary/20 text-primary hover:bg-primary/10 transition-smooth">
-                    <Github className="h-4 w-4" />
-                  </Button>
-                </div>
               </CardContent>
             </Card>)}
         </div>
