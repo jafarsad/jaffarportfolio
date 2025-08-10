@@ -64,11 +64,7 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                <div className="flex gap-3">
-                  <Button size="sm" className="flex-1 bg-primary hover:bg-primary-dark transition-smooth">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Live Demo
-                  </Button>
+                <div className="flex justify-end">
                   <Button variant="outline" size="sm" className="border-primary/20 text-primary hover:bg-primary/10 transition-smooth">
                     <Github className="h-4 w-4" />
                   </Button>
