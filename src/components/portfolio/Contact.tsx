@@ -83,13 +83,13 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      link: "#",
+      link: "https://www.linkedin.com/in/jaffar-sadiq-k-m",
       color: "text-blue-600"
     },
     {
       icon: Github,
       label: "GitHub", 
-      link: "#",
+      link: "https://github.com/jaffarsadiq",
       color: "text-gray-800"
     }
   ];
@@ -144,6 +144,8 @@ const Contact = () => {
                   <a
                     key={social.label}
                     href={social.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 rounded-lg bg-muted hover:bg-primary/10 transition-smooth group"
                   >
                     <social.icon className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-smooth" />
